@@ -35,7 +35,7 @@ public:
 		int index;
 		int size;
 	  public:
-		iterator(int *n=NULL, int s=0);
+		iterator(int *, int);
 		int &getInt() { return table[index]; }
 		void increment();
 		bool end() {  return index >= size; }
