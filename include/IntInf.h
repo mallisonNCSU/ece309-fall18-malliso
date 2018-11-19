@@ -41,6 +41,7 @@ class IntInf {
 				}
 				break;
 		}
+		return this;
 	}
 	IntInf operator+(int x) {
 		if(type==0) {
@@ -73,6 +74,7 @@ class IntInf {
 				}
 				break;
 		}
+		return this;
 	}
 	IntInf operator-(int x) {
 		if(type==0) {
@@ -107,6 +109,7 @@ class IntInf {
 				}
 			}
 		}
+		return this;
 	}
 	IntInf operator*(int x) {
 		if(type==0) {
@@ -140,7 +143,8 @@ class IntInf {
 			if(type==0) {
 				return IntInf(0,0);
 			}
-		}	
+		}
+		return this;		
 	}	
 	IntInf operator/(int x) {
 		if(type==0) {
