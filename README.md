@@ -6,3 +6,4 @@ ECE 309
 * HW4: Added lib/Plist.cpp and include/Plist.h
 * HW5: Added lib/IntArray.cpp, lib/IntegerSetArray.cpp, include/IntArray.h, include/IntegerSetArray.h, tests/IntArray_test.h, tests/IntegerSetArray_test.h
 * HW6: Added lib/IntegerSet.cpp, include/IntegerSet.h, lib/IntegerSetIterator.cpp, include/IntegerSetIterator.h
+* HW10: Added IntInf.h and IntInf_Test.cpp
