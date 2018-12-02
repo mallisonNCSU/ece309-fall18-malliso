@@ -2,6 +2,8 @@
 #define INTEGERSET_H
 #include <stdio.h>
 
+namespace ece309 {
+
 //#include "List.h"
 
 // IntegerSet abstract base class to demonstrate hash table concepts
@@ -58,4 +60,6 @@ public:
    virtual void remove(int);
 };
 */
+
+}
 #endif //INTEGERSET_H
