@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+namespace ece309 {
+
 class IntArray {
 	private:
 		int *array;
@@ -123,3 +125,5 @@ class IntArray {
 			return length;
 		}
 };
+	
+}
