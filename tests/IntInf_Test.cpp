@@ -1,6 +1,8 @@
 #include "IntInf.h"
 #include <stdio.h>
 
+using namespace ece309;
+
 int main() {
 	int testCount = 0;
 	IntInf x(1);
