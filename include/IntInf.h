@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+namespace ece309 {
+
 class IntInf {
 	private:
 	int type; //-1 means neginf, 0 means integer, 1 means posinf
@@ -208,3 +210,5 @@ class IntInf {
 		return number;
 	}
 };
+	
+}
