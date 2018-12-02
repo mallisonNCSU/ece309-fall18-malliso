@@ -4,6 +4,8 @@
 #include <time.h>
 #include <math.h>
 
+namespace ece309 {
+
 // can only hold positive integers
 
 IntegerSetHT::IntegerSetHT(int htsize)
@@ -132,8 +134,11 @@ void IntegerSetHT::iterator::increment()  {
 	} 
 }
 
+}
 int main()
 {
+	using namespace ece309;
+	
 	IntegerSetHT set;
 	set.insert(5);
 	set.insert(99);
