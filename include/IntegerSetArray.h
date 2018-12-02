@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+namespace ece309 {
+
+
 class IntegerSet {
 protected:
 	int size;
@@ -45,27 +48,4 @@ class IntegerSetArray : public IntegerSet {
 		}
 };
 
-int main() {
-	IntegerSetArray a(4);
-	if(a.insert(1) == true) {
-		printf("1 inserted\n");
-	}
-	if(a.insert(2) == true) {
-		printf("2 inserted\n");
-	}
-	if(a.insert(3) == true) {
-		printf("3 inserted\n");
-	}
-	if(a.insert(4) == true) {
-		printf("4 inserted\n");
-	}
-	if(a.insert(6) == false) {
-		printf("6 not inserted\n");
-	}
-
-	if(a.search(6) == false) {
-		printf("false for 6\n");
-	}
-	
-	return 0;
 }
