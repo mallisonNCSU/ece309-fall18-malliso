@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+namespace ece309 {
+
 class Item {
 private:
 	const char* string;
@@ -48,3 +50,5 @@ public:
 	}
 	
 };
+	
+}
