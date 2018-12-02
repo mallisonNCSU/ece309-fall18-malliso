@@ -1,6 +1,6 @@
 
 # list the name of each file (without the .cpp file at the end)
-EXE = example IntInf_Test IntArray_test IntegerSetArray_test
+EXE = example IntInf_Test
 
 all: $(EXE)
 
