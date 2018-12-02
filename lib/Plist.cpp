@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "Plist.h"
 
+namespace ece309 {
+
 //List
 List::List() {
 	head = NULL; 
@@ -61,3 +63,5 @@ void List::remove_front() {
 	
 	return 0;
 }*/
+
+}
