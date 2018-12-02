@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+namespace ece309 {
+
 class List {
 	private:
 		class ListNode {
@@ -67,3 +70,5 @@ class List {
 	
 	
 };
+	
+}
