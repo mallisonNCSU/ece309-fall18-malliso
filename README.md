@@ -7,3 +7,4 @@ ECE 309
 * HW5: Added lib/IntArray.cpp, lib/IntegerSetArray.cpp, include/IntArray.h, include/IntegerSetArray.h, tests/IntArray_test.h, tests/IntegerSetArray_test.h
 * HW6: Added lib/IntegerSet.cpp, include/IntegerSet.h, lib/IntegerSetIterator.cpp, include/IntegerSetIterator.h
 * HW10: Added IntInf.h and IntInf_Test.cpp
+* HW11: All objects are in the ece309 namespace, and all test files use the ece309 namespace. To show it builds successfully I have only HW10 files compiling, since a lot of other files have errors.
