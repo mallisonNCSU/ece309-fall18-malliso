@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+namespace ece309 {
+
 // can only hold positive integers
 IntegerSetHT::IntegerSetHT(int htsize)
 :IntegerSet(htsize)
@@ -109,8 +111,14 @@ void IntegerSetHTChain::remove(int data)
 }
 */
 
+}
+
+using namespace ece309;
+
 int main()
 {
+	using namespace ece309;
+	
 	srand(time(NULL));
 	IntegerSetHT set(1000);
 	int failinsert = 0;
