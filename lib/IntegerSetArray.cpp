@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+namespace ece309 {
+
 class IntegerSet {
 protected:
 	int size;
@@ -45,7 +47,12 @@ class IntegerSetArray : public IntegerSet {
 		}
 };
 
+}
+	
 int main() {
+	
+using namespace ece309;
+	
 	IntegerSetArray a(4);
 	if(a.insert(1) == true) {
 		printf("1 inserted\n");
