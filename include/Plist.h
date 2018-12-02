@@ -1,5 +1,7 @@
 //For Plist.cpp
 #include <stdio.h>
+namespace ece309 {
+
 class Item { //strings, integers, and double values
 	public:
 		virtual void print() {printf("error\n");}
@@ -62,3 +64,5 @@ class List {
 		int length();
 		void remove_front();
 };
+
+}
